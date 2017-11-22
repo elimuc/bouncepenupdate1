@@ -26,7 +26,7 @@ header{
   font-weight: normal;
   color: white;
   border:none;
-  width:300px;
+  width:365px;
   padding-left: 50px;
   display: inline-flex;
   align-items: center;
@@ -64,9 +64,9 @@ li{
   border-style: solid;
   width:100%;
   text-align: center;
-  margin-top: 18px;
+  margin-top: 15px;
   background-image: url("img/pic2.jpeg") ;
-  height: 350px;
+  height: 390px;
   border-bottom-style: solid;
   border-bottom-width:35px;
   border-right: none;
@@ -75,24 +75,24 @@ li{
   border-color:#2c3e50;
   padding-top: 200px;
   color: white;
-
-
 }
+
 .bookcover h1{
   font-size: 60px;
-  margin-top: 92px;
-  line-height: 30px;
+  margin-top: 123px;
+  line-height: 40px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-shadow: -1px 0 #2c3e50, 0 1px #2c3e50, 1px 0 #2c3e50, 0 -1px #2c3e50;
 }
 
 .bookcover h2{
-    text-shadow: -1px 0 #2c3e50, 0 1px #2c3e50, 1px 0 #2c3e50, 0 -1px #2c3e50;
+    text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
   font-size:40px;
+  line-height: 0px;
 }
 
 .part2{
-  background-color: rgb(249, 227, 238);
+  background-color: rgb(247, 239, 245);
 }
 .part2title{
   font-size: 20px;
@@ -115,6 +115,12 @@ li{
 .marketing, .publishing, .bookproj{
 
 }
+
+a.link-orange {
+    /* color: #EC8606; */
+    color: #d46b00!important;
+    text-decoration: underline;
+}
 /*button*/
 .btn-center {
     text-align: center;
@@ -135,11 +141,7 @@ li{
       border-radius: 6px;
       text-decoration: none;
   }
-  a.link-orange {
-      /* color: #EC8606; */
-      color: #d46b00!important;
-      text-decoration: underline;
-  }
+
   .btn-lg{
     padding: 10px 30px 14px;
     font-size: 22px;
