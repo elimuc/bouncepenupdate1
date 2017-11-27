@@ -131,6 +131,10 @@ footer p{
 .part3 ul li{
   list-style-type: none;
 }
+
+.part4{
+text-align: center;
+}
 a.link-orange {
     /* color: #EC8606; */
     color: #d46b00!important;
