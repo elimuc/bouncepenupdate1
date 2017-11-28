@@ -1,3 +1,11 @@
+html{
+  font-size:18px;
+}
+h3{
+  font-size:24px;
+  font-weight:300;
+  line-height:10px;
+}
  header a {
     color: white;
     cursor: pointer;
@@ -7,6 +15,7 @@ body{
   font-family: "Open Sans";
   color:rgb(24, 25, 25);
 }
+
 
 header{
   display: flex;
@@ -63,16 +72,15 @@ header{
 
 .bookcover{
   border-style: solid;
-  width:100%;
   text-align: center;
   margin-top: 53px;
   background-image: url("img/pic2.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 370px;
+  height: 400px;
   border-bottom-style: solid;
-  border-bottom-width:35px;
+  border-bottom-width:20px;
   border-right: none;
   border-left: none;
   width:100%;
@@ -99,7 +107,7 @@ header{
   background-color: rgb(290, 233, 245);
 }
 .part2title{
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 20px;
   text-align: center;
   margin-top: 0px;
@@ -109,7 +117,7 @@ header{
 
 
 .part2a{
-  font-family: "Open Sans";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top:0px;
   display: flex;
   justify-content: center;
@@ -117,11 +125,16 @@ header{
 
 }
 
-.marketing,.interview{
-
-padding:80px 80px;
+.fontsize15{
+  font-size:15px;
 }
-
+.marketing,.interview{
+padding:35px 60px;
+}
+.marketing p,.interview p{
+  line-height:25px;
+  margin-top: -5px;
+}
 footer p{
   text-align: right;
 }
@@ -135,12 +148,13 @@ footer p{
 }
 
 .part4{
-margin-top: 30px;
 text-align: center;
 }
-
+.part4 h2{
+  margin-top: 30px;
+}
 .part4 img{
-margin-top: 60px;
+margin-top: 40px;
 }
 a.link-orange {
     /* color: #EC8606; */
