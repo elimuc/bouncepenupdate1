@@ -65,12 +65,12 @@ header{
   border-style: solid;
   width:100%;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 53px;
   background-image: url("img/pic2.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 380px;
+  height: 370px;
   border-bottom-style: solid;
   border-bottom-width:35px;
   border-right: none;
@@ -95,29 +95,31 @@ header{
   line-height: 0px;
 }
 
-.part2{
-  background-color: rgb(247, 239, 245);
+.pink{
+  background-color: rgb(290, 233, 245);
 }
 .part2title{
+  padding-top: 30px;
   font-size: 20px;
   text-align: center;
-  margin-top: -30px;
-  margin-bottom: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
 
 .part2a{
   font-family: "Open Sans";
-  margin-top: 20px;
+  margin-top:0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
 
 }
 
-.marketing, .publishing, .bookproj{
+.marketing,.interview{
 
+padding:80px 80px;
 }
 
 footer p{
@@ -133,7 +135,12 @@ footer p{
 }
 
 .part4{
+margin-top: 30px;
 text-align: center;
+}
+
+.part4 img{
+margin-top: 60px;
 }
 a.link-orange {
     /* color: #EC8606; */
