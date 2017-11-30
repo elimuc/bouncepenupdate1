@@ -2,9 +2,9 @@ html{
   font-size:18px;
 }
 h3{
-  font-size:24px;
+  font-size:1.5rem;
   font-weight:300;
-  line-height:10px;
+  line-height:0.56rem;
 }
  header a {
     color: white;
@@ -32,12 +32,12 @@ header{
 }
 .name{
   font-family: 'Aleo', serif;
-  font-size: 40px;
+  font-size: 2.2rem;
   font-weight: normal;
   color: white;
   border:none;
-  width:365px;
-  padding-left: 50px;
+  width:20.27rem;
+  padding-left: 2.78rem;
   display: inline-flex;
   align-items: center;
 
@@ -50,19 +50,20 @@ header{
 }
 
 .navleft ul li{
-  font-size: 13px;
+  font-size: 0.72rem;
   font-weight: bold;
   font-variant: normal;
   display: inline;
-  width:600;
-  padding: 25px 15px;
+  padding: 1.39rem 0.83rem;
   align-content: center;
   font-family: 'icomoon', 'open sans', arial, sans-serif;
   }
 
 .navright span{
   display: block;
-  margin-left: 250px;
+  margin-left: 13.9rem;
+  width:10rem;
+  flex-shrink: 1;
   background-color: none;
   align-content: center;
   float: right;
@@ -73,33 +74,33 @@ header{
 .bookcover{
   border-style: solid;
   text-align: center;
-  margin-top: 53px;
+  margin-top: 2.94rem;
   background-image: url("img/pic2.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 22.2rem;
   border-bottom-style: solid;
-  border-bottom-width:20px;
+  border-bottom-width:1.11rem;
   border-right: none;
   border-left: none;
   width:100%;
   border-color:#2c3e50;
-  padding-top: 200px;
+  padding-top: 11.1rem;
   color: white;
 }
 
 .bookcover h1{
-  font-size: 60px;
-  margin-top: 80px;
-  line-height: 80px;
+  font-size: 3.33rem;
+  margin-top: 1.44rem;
+  line-height: 4.44rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: -1px 0 #2c3e50, 0 1px #2c3e50, 1px 0 #2c3e50, 0 -1px #2c3e50;
 }
 
 .bookcover h2{
     text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
-  font-size:40px;
+  font-size:2.22rem;
   line-height: 0px;
 }
 
@@ -107,8 +108,8 @@ header{
   background-color: rgb(290, 233, 245);
 }
 .part2title{
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 1.11rem;
+  font-size: 1.11rem;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -126,14 +127,18 @@ header{
 }
 
 .fontsize15{
-  font-size:15px;
+  font-size:0.83rem;
 }
-.marketing,.interview{
-padding:35px 60px;
+#marketing,#interview{
+padding:1.94rem 3.33rem;
 }
-.marketing p,.interview p{
-  line-height:25px;
-  margin-top: -5px;
+#marketing p,#interview p{
+  line-height:1.39rem;
+  margin-top: -0.28rem;
+}
+#marketing img,#interviewimg{
+  height:20rem;
+  width:26.7rem;
 }
 footer p{
   text-align: right;
@@ -151,10 +156,10 @@ footer p{
 text-align: center;
 }
 .part4 h2{
-  margin-top: 30px;
+  margin-top: 1.667rem;
 }
 .part4 img{
-margin-top: 40px;
+margin-top: 2.22rem;
 }
 a.link-orange {
     /* color: #EC8606; */
@@ -183,22 +188,101 @@ a.link-orange {
   }
 
   .btn-lg{
-    padding: 10px 30px 14px;
-    font-size: 22px;
+    padding: 0.56rem 1.67rem 0.78rem;
+    font-size: 1.22rem;
     line-height: 1.3333333;
-    border-radius: 6px;
+    border-radius: 0.33rem;
 }
 .btn-red {
     cursor: pointer;
     font-weight: 600;
     color: black !important;
     background-color: #FFF ;
-    border-radius: 6px;
+    border-radius: 0.33rem;
     text-decoration: none;
 }
 .btn-lg1{
-  padding: 5px 15px 7px;
-  font-size: 18px;
+  padding: 0.278rem 0.83rem 0.389rem;
+  font-size: 1rem;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 0.33rem;
 }
+
+@media only screen and (max-width:470px){
+  .navleft{
+    display:none;
+  }
+  html{
+    font-size: 10px;
+  }
+  .bookcover{
+    border-style: solid;
+    text-align: center;
+    margin-top: 5.2rem;
+    background-image: url("img/pic2.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    border-bottom-style: solid;
+    border-bottom-width:1.11rem;
+    border-right: none;
+    border-left: none;
+    width:100%;
+    border-color:#2c3e50;
+    padding-top: 11.1rem;
+    color: white;
+  }
+  .bookcover h1{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    line-height: 3rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: -1px 0 #2c3e50, 0 1px #2c3e50, 1px 0 #2c3e50, 0 -1px #2c3e50;
+  }
+
+  .bookcover h2{
+    text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
+    font-size:1.8rem;
+    line-height: 0px;
+  }
+  a.link-orange {
+      /* color: #EC8606; */
+      color: #d46b00!important;
+      text-decoration: underline;
+      font-size: 1.5rem;
+  }
+
+
+  .part2a{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:0px;
+    display: block;
+
+    text-align: center;
+
+  }
+  #marketing,#interview{
+  padding:1.94rem 3.33rem;
+  }
+  #marketing p,#interview p{
+    line-height:1.39rem;
+    margin-top: -0.28rem;
+    font-size:1rem;
+  }
+  #marketing img, #interview img{
+    height:24rem;
+    width:30rem;
+  }
+  .part4 img{
+  margin-top: 2.22rem;
+  height:20rem;
+  width:35rem;
+  }
+  .pink img{
+    height:15rem;
+    width:35rem;
+  }
+}
+
+  @media only screen and (max-width:1024px)
