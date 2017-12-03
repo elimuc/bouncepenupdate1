@@ -6,10 +6,10 @@ h3{
   font-weight:300;
   line-height:0.56rem;
 }
- header a {
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
+header a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 body{
   font-family: "Open Sans";
@@ -57,7 +57,7 @@ header{
   padding: 1.39rem 0.83rem;
   align-content: center;
   font-family: 'icomoon', 'open sans', arial, sans-serif;
-  }
+}
 
 .navright span{
   display: block;
@@ -99,14 +99,14 @@ header{
 }
 
 .bookcover h2{
-    text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
+  text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
   font-size:2.22rem;
   line-height: 0px;
 }
 
-.pink{
+/*.pink{
   background-color: rgb(290, 233, 245);
-}
+}*/
 .part2title{
   padding-top: 1.11rem;
   font-size: 1.11rem;
@@ -130,7 +130,7 @@ header{
   font-size:0.83rem;
 }
 #marketing,#interview{
-padding:1.94rem 3.33rem;
+  padding:1.94rem 3.33rem;
 }
 #marketing p,#interview p{
   line-height:1.39rem;
@@ -153,53 +153,92 @@ footer p{
 }
 
 .part4{
-text-align: center;
+  text-align: center;
 }
 .part4 h2{
   margin-top: 1.667rem;
 }
 .part4 img{
-margin-top: 2.22rem;
+  margin-top: 2.22rem;
 }
 a.link-orange {
-    /* color: #EC8606; */
-    color: #d46b00!important;
-    text-decoration: underline;
+  /* color: #EC8606; */
+  color: #d46b00!important;
+  text-decoration: underline;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  line-height: 20px;
+  color: white;
+
+}
+
+footer .links {
+  width: 100%;
+  max-width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: white;
+}
+
+footer .links div {
+  width: 112px;
+}
+
+footer .links a {
+  display: block;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 30px;
+  font-size: 18px;
+}
+
 /*button*/
 .btn-center {
-    text-align: center;
-    margin: 20px auto;
-    float: none;
-    position: relative;
-    display: inline-block;
-    /* display: table; */
-    background: transparent;
-    background-color: #fa8700;
-  }
+  text-align: center;
+  margin: 20px auto;
+  float: none;
+  position: relative;
+  display: inline-block;
+  /* display: table; */
+  background: transparent;
+  background-color: #fa8700;
+}
 
-  .btn-orange {
-      cursor: pointer;
-      font-weight: 600;
-      color: #FFF !important;
-      background-color: #fa8700;
-      border-radius: 6px;
-      text-decoration: none;
-  }
+.btn-orange {
+  cursor: pointer;
+  font-weight: 600;
+  color: #FFF !important;
+  background-color: #fa8700;
+  border-radius: 6px;
+  text-decoration: none;
+}
 
-  .btn-lg{
-    padding: 0.56rem 1.67rem 0.78rem;
-    font-size: 1.22rem;
-    line-height: 1.3333333;
-    border-radius: 0.33rem;
+.btn-lg{
+  padding: 0.56rem 1.67rem 0.78rem;
+  font-size: 1.22rem;
+  line-height: 1.3333333;
+  border-radius: 0.33rem;
 }
 .btn-red {
-    cursor: pointer;
-    font-weight: 600;
-    color: black !important;
-    background-color: #FFF ;
-    border-radius: 0.33rem;
-    text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: black !important;
+  background-color: #FFF ;
+  border-radius: 0.33rem;
+  text-decoration: none;
 }
 .btn-lg1{
   padding: 0.278rem 0.83rem 0.389rem;
@@ -208,81 +247,6 @@ a.link-orange {
   border-radius: 0.33rem;
 }
 
-@media only screen and (max-width:470px){
-  .navleft{
-    display:none;
-  }
-  html{
-    font-size: 10px;
-  }
-  .bookcover{
-    border-style: solid;
-    text-align: center;
-    margin-top: 5.2rem;
-    background-image: url("img/pic2.jpeg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 15rem;
-    border-bottom-style: solid;
-    border-bottom-width:1.11rem;
-    border-right: none;
-    border-left: none;
-    width:100%;
-    border-color:#2c3e50;
-    padding-top: 11.1rem;
-    color: white;
-  }
-  .bookcover h1{
-    font-size: 2.5rem;
-    margin-top: 2rem;
-    line-height: 3rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-shadow: -1px 0 #2c3e50, 0 1px #2c3e50, 1px 0 #2c3e50, 0 -1px #2c3e50;
-  }
-
-  .bookcover h2{
-    text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
-    font-size:1.8rem;
-    line-height: 0px;
-  }
-  a.link-orange {
-      /* color: #EC8606; */
-      color: #d46b00!important;
-      text-decoration: underline;
-      font-size: 1.5rem;
-  }
 
 
-  .part2a{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top:0px;
-    display: block;
-
-    text-align: center;
-
-  }
-  #marketing,#interview{
-  padding:1.94rem 3.33rem;
-  }
-  #marketing p,#interview p{
-    line-height:1.39rem;
-    margin-top: -0.28rem;
-    font-size:1rem;
-  }
-  #marketing img, #interview img{
-    height:24rem;
-    width:30rem;
-  }
-  .part4 img{
-  margin-top: 2.22rem;
-  height:20rem;
-  width:35rem;
-  }
-  .pink img{
-    height:15rem;
-    width:35rem;
-  }
-}
-
-  @media only screen and (max-width:1024px)
+@media only screen and (max-width:1024px)
